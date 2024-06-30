@@ -43,8 +43,9 @@ html{
 body{
   background-color: var(--pc-dark-blue-main-background);
   position: relative;
- 
+  overflow-x: hidden;
 }
+
 
 .background-light-section{
   position: absolute;
@@ -52,7 +53,7 @@ body{
   top: 0;
   left: 0;
   z-index: -100;
-  width: 100%;
+  width: 430px;
   height: 470px;
   background-color: var(--pc-dark-testimonial-background);
   background-position: center;
@@ -62,7 +63,7 @@ body{
 
 .background-dark-section{
   background-image: url(images/bg-curvy-mobile.svg);
-  width: 450px;
+  width: 460px;
   height: 250px;
   position: absolute;
   top: 270px;
@@ -73,6 +74,7 @@ body{
   background-position: center;
 
 }
+
 
 /* -- Header Styling Section -- */
 header{
@@ -300,5 +302,103 @@ main{
 .profile-title{
   font-size: 0.6rem;
   color: var(--nc-white);
+  font-weight: 200;
+}
+
+.email-hero-section{
+  position: relative;
+  margin-bottom: 20px;
+  display: grid;
+  place-content: center;
+}
+.inner-email-hero-section{
+  background-color: var(--pc-dark-blue-intro-email-signup-background);
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+}
+
+.email-heading-section{
+  color: var(--nc-white);
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.email-info-section{
+  text-align: center;
+  color: var(--nc-white);
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#email-signup{
+  padding: 15px;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.email-button{
+  padding: 15px;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--ac-cyan-inside-call-to-action-gradient);
+  color: var(--nc-white);
+}
+
+footer{
+  background-color: var(--pc-dark-footer-background);
+  height: 110vh;
+  margin-top: 140px;
+  padding: 200px 20px 0px 20px;
+  font-family: var(--ff-font-family-open-sans);
+}
+
+.footer-logo{
+  margin-left: 20px;
+}
+
+.contact-info-section{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.contact-info-images{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.contact-info-details{
+  font-size: 1.2rem;
+  color: var(--nc-white);
+  font-weight: 100;
+  line-height: 1.5;
+  width: 300px;
+}
+
+.footer-links{
+  margin-top: 20px;
+}
+.footer-links p{
+  color: var(--nc-white);
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.footer-links-about{
+  margin-top: 40px;
+}
+.footer-link-about p{
+  color: var(--nc-white);
+  margin-top: 20px;
   font-weight: 200;
 }
