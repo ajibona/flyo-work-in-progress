@@ -64,7 +64,7 @@ header{
 }
 
 .mobile-background img{
-  width: 116%;
+  width: 117%;
   height: 200px;
   position: absolute;
   z-index: -1;
@@ -240,3 +240,182 @@ main{
   width: 10px;
   font-size: 0.2rem;
 }
+
+#review-section{
+  margin-top: 170px;
+  margin-bottom: 320px;
+  
+}
+.review-box{
+  width: 85%;
+  margin-inline: auto;
+  padding: 25px 20px;
+  background-color: var(--cc-primary-dark-blue-testimonial-background);
+  margin-bottom: 30px;
+  border-radius: 6px;
+  position: relative;
+}
+.comment{
+  font-size: 0.7rem;
+  color: var(--cc-neutral-color-white);
+  font-family: var(--ff-font-family-raleway);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.details-review{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.details-review img{
+  width: 30px;
+  border-radius: 50%;
+}
+.profile-name{
+  font-family: var(--ff-font-family-raleway);
+  color: var(--cc-neutral-color-white);
+  font-weight: var(--ff-raleway-bold-700);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+.profile-tittle{
+  font-family: var(--ff-font-family-raleway);
+  color: var(--cc-neutral-color-white);
+  font-weight: var(--ff-raleway-small-400);
+  font-size: 0.6rem;
+}
+
+.box1{
+  position: relative;
+}
+.quote-image::after{
+  content: "";
+  background: url(images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  top: -23px;
+  left: 10px;
+  position: absolute;
+}
+
+footer{
+  background-color: var(--cc-primary-dark-blue-footer-background);
+  position: relative;
+}
+
+.email-signup{
+  padding: 40px 30px;
+  background-color: var(--cc-primary-dark-blue-main-background);
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  position: absolute;
+  top: -120px;
+  left: 20px;
+  margin-inline: auto;
+  border-radius: 8px;
+}
+
+.email-signup-heading{
+  color: var(--cc-neutral-color-white);
+  text-align: center;
+  font-family: var(--ff-font-family-raleway);
+  font-weight: var(--ff-raleway-bold-700);
+  margin-bottom: 20px;
+}
+
+.email-signup-info{
+  text-align: center;
+  color: var(--cc-neutral-color-white);
+  font-family: var(--ff-font-family-raleway);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  width: 290px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+.email-input input{
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 100px;
+  border: none;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.email-input input::placeholder{
+  font-size: 0.7rem;
+  font-family: var(--ff-font-family-raleway);
+}
+
+.email-input button{
+  width: 100%;
+  padding: 12px;
+  background-color: var(--cc-accent-color-cyan-inside-call-to-action);
+  border: none;
+  border-radius: 100px;
+  font-family: var(--ff-font-family-raleway);
+  font-weight: var(--ff-raleway-bold-700);
+  color: var(--cc-neutral-color-white);
+}
+
+.footer-details{
+  width: 90%;
+  margin-inline: auto;
+}
+
+.footer-logo{
+  margin-top: 250px;
+  width: 150px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.web-location, .contact, .mail{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+
+}
+
+.web-location img{
+  margin-top: 10px;
+}
+.web-location p{
+  font-family: var(--ff-font-family-raleway);
+  color: var(--cc-neutral-color-white);
+  line-height: 1.7;
+}
+
+.mail p, .contact p{
+  font-family: var(--ff-font-family-raleway);
+  color: var(--cc-neutral-color-white);
+  font-size: 0.9rem;
+}
+
+.mail img, .contact img{
+  margin-top: 5px;
+  width: 15px;
+}
+
+.footer-contact{
+  margin-bottom: 70px;
+}
+
+.web-links{
+  margin-bottom: 40px;
+}
+.web-links ul li, .web-links2 ul li{
+  list-style: none;
+  font-family: var(--ff-font-family-raleway);
+  color: var(--cc-neutral-color-white);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
